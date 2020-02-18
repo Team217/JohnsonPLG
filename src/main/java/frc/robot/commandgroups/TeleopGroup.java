@@ -18,6 +18,6 @@ public class TeleopGroup extends SequentialCommandGroup {
      * Creates a new TeleopGroup.
      */
     public TeleopGroup() {
-        super(new TeleopFalcon());
+        super(new TeleopPLG());
     }
 }

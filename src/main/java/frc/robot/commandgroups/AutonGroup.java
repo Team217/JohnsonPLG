@@ -18,6 +18,6 @@ public class AutonGroup extends SequentialCommandGroup {
      * Creates a new TeleopGroup.
      */
     public AutonGroup() {
-        super(new AutonFalcon());
+        super(new AutonPLG());
     }
 }
